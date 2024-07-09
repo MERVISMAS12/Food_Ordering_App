@@ -1,0 +1,20 @@
+{
+  "name": "food_ordering_app",
+  "version": "1.0.0",
+  "description": "Aroma - Food Ordering App",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Mervis Mascarenhas",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

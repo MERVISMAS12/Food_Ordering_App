@@ -1,0 +1,75 @@
+:root {
+    --primary-color: #293E1E;
+    --accent-color: #F5F5DC;
+    --secondary-color: #FFD700;
+    --neutral-color: #FFFFFF;
+    --dark-accent-color: #8B4513;
+  }
+  
+  /* Example usage */
+  body {
+    background-color: var(--accent-color);
+    color: var(--dark-accent-color);
+  }
+  
+  .header, footer {
+    background-color: var(--primary-color);
+    color: var(--neutral-color);
+  }
+  
+  a, button {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  }
+  
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.logo{
+    width: 170px;
+}
+.nav-items > ul {
+    font-size: 21px;
+    display: flex;
+    list-style-type: none;
+}
+.nav-items > ul > li {
+    padding: 10px;
+    margin: 10px;
+}
+.res-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.res-card{
+    width: 270px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 30px;
+    transition: transform 0.2s;
+}
+.res-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+.content {
+    padding: 0px 20px; 
+  }
+   
+.search{
+    padding: 10px;
+}
+.res-card > span {
+    position: absolute;
+}
+
+.res-logo{
+   width: 270px; 
+   height: 200px;
+   object-fit: cover;
+}
+
