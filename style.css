@@ -73,3 +73,14 @@
    object-fit: cover;
 }
 
+.filter-btn{
+    background-color: #FFD700;
+    color: #293E1E;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 10px;
+}
