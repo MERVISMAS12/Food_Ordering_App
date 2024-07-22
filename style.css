@@ -45,6 +45,7 @@
 }
 .res-card{
     width: 270px;
+    min-height: 400px;
     background-color: #FFFFFF;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -83,4 +84,26 @@
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
     margin: 10px;
+}
+
+.shim-photo{
+  width: 270px; 
+  height: 200px;
+  background-color: rgb(219, 219, 219);
+  margin-bottom: 40px;
+}
+
+.shim-line{
+  width: 200px; 
+  height: 5px;
+  margin: auto;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  background-color: rgb(219, 219, 219);
+}
+.shim-box{
+  width: 70px;
+  height: 30px;
+  margin: 40px;
+  background-color: rgb(219, 219, 219);
 }
