@@ -107,3 +107,25 @@
   margin: 40px;
   background-color: rgb(219, 219, 219);
 }
+
+.srch-bar {
+  width: 100%;
+  max-width: 400px; /* Maximum width for the search bar */
+  padding: 10px; /* Inner padding */
+  border: 2px solid #293E1E; /* Deep Green border */
+  border-radius: 5px 0 0 5px; /* Rounded left corners */
+  font-size: 16px; /* Font size for input text */
+  outline: none; /* Remove default outline */
+}
+
+.srch-btn {
+  padding: 10px 20px; /* Inner padding */
+  background-color: #293E1E;; /* Warm Yellow background */
+  color: white; /* Deep Green text color */
+  border: 2px solid #293E1E; /* Deep Green border */
+  border-left: none; /* Remove left border to blend with input */
+  border-radius: 0 5px 5px 0; /* Rounded right corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size for button text */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
